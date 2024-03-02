@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <title>EXOTICKITTENS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     
+
+     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700i" rel="stylesheet">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" type="text/javascript"></script>
+    <script src="dropdownLayer.js" type="text/javascript"></script>
+    
+    
+    <style>
+      
+      
+* { box-sizing: border-box; }
+
+body {
+  background-color: #f0706f;
+  color: #fff;
+  margin: 0;
+  min-height: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container { width: 100%; }
+
+.persons {
+  padding: 40px 0 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.persons:before,
+.persons:after {
+  clear: both;
+  content: " ";
+  display: table;
+}
+
+.persons .person {
+  width: 25%;
+  margin-bottom: 20px;
+  display: table;
+  float: left;
+  border-left: 20px solid transparent;
+  cursor: pointer;
+}
+
+.persons .person .avatar {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+.persons .person .avatar img {
+  border: 10px solid #fff;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.persons .person.active .avatar img { border-color: #fff; }
+
+.persons .person .fullname {
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 0 5px;
+}
+
+.persons .person .title {
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #fff;
+  font-size: 16px;
+}
+
+.persons .person .js-description { display: none; }
+@media screen and (max-width: 700px) {
+
+.persons .person { width: 50%; }
+}
+@media screen and (max-width: 400px) {
+
+.persons .person {
+  width: 100%;
+  border-left: medium none;
+}
+}
+
+.persons .js-dropdown {
+  background-clip: padding-box !important;
+  border: 0 solid transparent;
+  box-sizing: border-box;
+  float: left;
+  padding: 0;
+  margin: 40px 0 20px;
+  width: 100%;
+  display: table;
+  border-color: transparent;
+  border-image: none;
+  border-style: solid;
+  border-width: 0 0 10px 20px;
+}
+
+.persons .js-dropdown:before,
+.persons .js-dropdown:after {
+  clear: both;
+  content: " ";
+  display: table;
+}
+@media screen and (max-width: 400px) {
+
+.persons .js-dropdown { border-left: medium none; }
+}
+
+.persons .js-dropdown .js-dropdown-content {
+  background: none repeat scroll 0 0 #FFFFFF;
+  border: 3px solid #E5E5E5;
+  color: #333333;
+  position: relative;
+  width: 100%;
+  padding: 48px 32px 0;
+}
+
+.persons .js-dropdown .js-dropdown-content .js-dropdown-arrow {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-left: -55px;
+  border: 30px solid transparent;
+  border-bottom-color: #E5E5E5;
+  pointer-events: none;
+  -webkit-transition: left 0.3s;
+  -moz-transition: left 0.3s;
+  transition: left 0.3s;
+}
+
+.persons .js-dropdown .js-dropdown-content p {
+  line-height: 26px;
+  margin: 0 0 40px;
+  padding: 0;
+  font-size: 16px;
+}
+
+/*button*/
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {background-color: #04AA6D;} /* Green */
+      </style>
+    
+     <!--google Translate-->
+
+    
+<div id="google_translate_element"></div>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+       
+<!--end of google-->
+    
+  </head>
+  <body>
+    <ul>
+      <li style="color: #fff;"><a href="/EXOTICKITTENS/index.html">Home</a></li>
+       
+    </ul>
+   <br><br><br> 
+    <div class="container">
+      <div class="persons js-dropdown-items">
+        <div class="person js-dropdown-item">
+          <div class="avatar"><img src="/EXOTICKITTENS/img/jadensavanaf1.jpeg" height="150" alt="" title="Albert Einstein"></div>
+          <div class="fullname">JADEN SAVANNAH F1</div>
+          <div class="title">12 WEEKS OLD</div>
+          <div class="js-description">
+            <img src="/EXOTICKITTENS/img/jadensavanaf2.jpeg" alt="" title="Albert Einstein" height="100">
+            <img src="/EXOTICKITTENS/img/jadensavanaf3.jpeg" alt="" title="Albert Einstein" height="100">
+            <img src="/EXOTICKITTENS/img/jadensavanaf4.jpeg" alt="" title="Albert Einstein" height="100">
+            <img src="/EXOTICKITTENS/img/jadensavanaf6.jpeg" alt="" title="Albert Einstein" height="100">
+            <p>Jaden is an amazing golden coated, black spotted male savannah kitten. Very friendly and lovable. Jaden is that kind of kitten that will steal the attention of everyone around him. He will jump all over and play all day long. Like every other Savannah, he like carresses and Kisses He is ready to make the best out of your life.</p>
+            <a href="/EXOTICKITTENS/appointment.html">
+              <button style="padding: 10;">contact for more</button>
+            </a> 
+          </div>
+        </div>
+        <div class="person js-dropdown-item">
+          <div class="avatar"><img src="/EXOTICKITTENS/img/feenasavanaf1.jpeg" alt="" title="Albert Einstein" height="150"></div>
+          <div class="fullname">FEENA SAVANNAH F1
+            </div>
+          <div class="title">FEMALE</div>
+          <div class="js-description">
+            <img src="/EXOTICKITTENS/img/feenasavanaf16.jpeg" alt="" title="Albert Einstein" height="100">
+            <img src="/EXOTICKITTENS/img/feenasavanaf2.jpeg" alt="" title="Albert Einstein" height="100">
+            <img src="/EXOTICKITTENS/img/feenasavanaf3.jpeg" alt="" title="Albert Einstein" height="100">
+            <p>For those of you who wants to start a career as Breeders, Feena will be the best Partner to start with. She is our Princess. A gentle looking, beautiful savannah F1. Beautiful markings with an agressif look.</p>
+            <a href="/EXOTICKITTENS/appointment.html">
+              <button style="padding: 10;">contact for more</button>
+            </a> 
+          </div>
+
+        </div>
+        <div class="person js-dropdown-item">
+          <div class="avatar"><img src="/EXOTICKITTENS/img/lerasavanaf2.jpeg" alt="" title="Albert Einstein" height="150"></div>
+          <div class="fullname">Lara, Tuva and Tuna
+            </div>
+          <div class="title">3 Sisters Savannah F2</div>
+          <div class="js-description">
+            <p> These girls are just so beautiful with a personality to match They've got fabulous spots and lovely aggressive expression with pretty eyes. You may like to enjoy the beautiful experience of savannah by having one of them!</p>
+            <a href="/EXOTICKITTENS/appointment.html">
+              <button style="padding: 10;">contact for more</button>
+            </a> 
+          </div>
+        </div>
+        <div class="person js-dropdown-item">
+          <div class="avatar"><img src="/EXOTICKITTENS/img/dracosavanaf31.jpeg" alt="" title="Albert Einstein" height="150"></div>
+          <div class="fullname">DRACO SAVANNAH F3 MALE
+           </div>
+          <div class="title"> 13 WEEKS OLD</div>
+          <div class="js-description">
+            <img src="/EXOTICKITTENS/img/dracosavanaf31.jpeg" alt="" title="Albert Einstein" height="100">
+            <img src="/EXOTICKITTENS/img/dracosavanaf32.jpeg" alt="" title="Albert Einstein" height="100">
+            <img src="/EXOTICKITTENS/img/dracosavanaf33.jpeg" alt="" title="Albert Einstein" height="100">
+            <p>Draco has been busy sprouting some beautiful tall ears in the past few weeks. Ready for a new adventure, Draco will make your Savannah dream come true. Parents are a available at sight.</p>
+            <a href="/EXOTICKITTENS/appointment.html">
+              <button style="padding: 10;">contact for more</button>
+            </a> 
+          </div>
+        </div>
+         
+        <div class="person js-dropdown-item">
+          <div class="avatar"><img src="/EXOTICKITTENS/img/leyaandclsavanaf41.jpeg" alt="" title="Albert Einstein" height="150"></div>
+          <div class="fullname">LEYA AND CLEO SAVANNAH F4</div>
+          <div class="title">MALE AND FEMALE 8 WEEKS OLD</div>
+          <div class="js-description">
+            <img src="/EXOTICKITTENS/img/leyaandclsavanaf42.jpeg" alt="" title="Albert Einstein" height="150">
+            <img src="/EXOTICKITTENS/img/leyaandclsavanaf42.jpeg" alt="" title="Albert Einstein" height="150">
+             
+            <p>Both have absolutely beautiful personalities and love to have cuddles at any opportunity.</p>
+            <a href="/EXOTICKITTENS/appointment.html">
+              <button style="padding: 10;">contact for more</button>
+            </a> 
+          </div>
+        </div>
+        <div class="person js-dropdown-item">
+          <div class="avatar"><img src="/EXOTICKITTENS/img/ranger1.jpeg" alt="" title="Albert Einstein" height="150"></div>
+          <div class="fullname">RANGER SAVANNAH F5
+            </div>
+          <div class="title">3MONTHS OLD</div>
+          <div class="js-description">
+            <img src="/EXOTICKITTENS/img/ranger2.jpeg" alt="" title="Albert Einstein" height="100">
+            <img src="/EXOTICKITTENS/img/ranger3.jpeg" alt="" title="Albert Einstein" height="100">
+            <img src="/EXOTICKITTENS/img/ranger4.jpeg" alt="" title="Albert Einstein" height="100">
+            
+            <p>A Complete stud Muffin! Astonishing dark handsome Features. The looks are those of a Real bad boy Available at the price ASAP.</p>
+            <a href="/EXOTICKITTENS/appointment.html">
+              <button style="padding: 10;">contact for more</button>
+            </a> 
+          </div>
+        </div>
+        
+        
+      </div>
+    </div>
+
+    
+    <div><H1 style="text-align: center;  color: #fff; font-family: fantasy;">WHEN YOUR KITTEN LEAVES OUR HOME, HE OR SHE WILL HAVE:</H1>
+      <p style="text-align: center; font-size: larger; color: #fff; padding: 100px;">Vaccinations and booster shots, worming, health certificate from our registered vet here in Olds, and a 1 year health guarantee. Official registration paperwork from TICA (The International Cat Association) certifying that your savannah kittens are purebred savannahs will be provided after documentation of spay or neuter is provided to EXOTICKITTENS. * Deposits are being accepted now. How often will new pictures of my kitten be taken? We know that it is important for each of our clients to receive pictures of their kitten as he or she is growing. We at EXOTICKITTENS will take pictures of your kitten every 3 weeks as he or she grows, and have a picture posted on our website. Additionally we will have many pictures of your kitten posted on our Facebook page for our current or previous clients to admire. To be added to our waiting list, please call or email us using the link on our Contact page. A $1000.00 non-refundable deposit is required to place one of our savannah kittens for sale on hold. When your kitten is 12 weeks old, your kitten will be ready go home with you. Breeding rights cannot be obtained. * Please Contact Us soon if you are interested in a kitten, or they may all be claimed.
+
+        EXOTICKITTENS
+        Welcome to EXOTIC KITTENS. My husband Mark and I live full time in our home with our savannahs, and treat them as our children. Our savannahs are never alone as they are in our home, not away at a boarding kennel. We love our savannahs and our savannahs love us.
+        
+        Quick Links
+         About Us
+         Contact Us
+        </p></div>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('.js-dropdown-item').dropdownLayer({
+          'elemSelector': "js-dropdown-item",
+          'containerClass': "js-dropdown-items", 
+          'descriptionClass': "js-description",
+          'arrowClass': "js-dropdown-arrow",
+          'dropdownClass': "js-dropdown",
+          'dropdownContentClass': "js-dropdown-content",
+          'disableDropdownClass': "js-dropdown-disable",
+          'useSlideUp': true,
+          'slideUpSpeed': 200,
+          'useSlideDown': true,
+          'slideDownSpeed': 200,
+          'callOnCompleteHide': function(){ console.log('your custom function which will be called on complete after hiding'); },
+          'callOnCompleteShow': function(){ console.log('your custom function which will be called on complete after showing'); }
+        });
+      });
+    </script>
+    <footer>
+      <ul>
+        <li style="color: #fff;"><a href="/EXOTICKITTENS/index.html">Go to Home Page</a></li>
+         
+      </ul>
+    </footer>
+  </body>
+</html>
