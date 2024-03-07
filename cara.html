@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="avakits.css">
+
+   <!-- custom js file link  -->
+   <script src="avakit.js" defer></script>
+   <!--slide-->
+
+
+   <meta charset="utf-8">
+   <title>EXOTIC KITTENS</title>
+   <meta content="width=device-width, initial-scale=1.0" name="viewport">
+   <meta content="" name="keywords">
+   <meta content="" name="description">
+
+   <!-- Google Web Fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet"> 
+
+   <!-- Icon Font Stylesheet -->
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+   <!-- Libraries Stylesheet -->
+   <link href="lib/animate/animate.min.css" rel="stylesheet">
+   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+   <!--favicon-->
+   <link rel="icon" type="image/x-icon" href="img/header (2).jpg">
+
+   <!-- Customized Bootstrap Stylesheet -->
+   <link href="css/bootstrap.min.css" rel="stylesheet">
+
+   <!-- Template Stylesheet -->
+   <link href="css/style.css" rel="stylesheet">
+
+
+   <!--google Translate-->
+
+
+<div id="google_translate_element"></div>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  
+<!--end of google-->
+
+
+
+
+
+
+   <style>
+
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+   </style>
+
+   <script>
+      
+
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+
+
+   </script>
+
+</head>
+<body>
+   <a href="index.html"  style="font-size: larger;  ">Home</a>
+<div class="container">
+
+   <h3 class="title"> Available Kittens </h3>
+   <h5 class="title"> Caracal </h5>
+
+   <div class="products-container">
+
+      <div class="product" data-name="p-1">
+         <img src="img/caracal1.jpeg" alt="">
+         <h3>Caracal</h3>
+         <div class="price"></div>
+      </div>
+
+      <div class="product" data-name="p-2">
+         <img src="img/caracalmale2.jpeg" alt="">
+         <h3>Caracal</h3>
+         <div class="price"></div>
+      </div>
+
+      
+
+</div>
+
+<div class="products-preview">
+
+   <div class="preview" data-target="p-1">
+      <i class="fas fa-times"></i>
+      <img src="img/caracal2.jpeg" alt="">
+  
+      <h3>Caracal Female
+       
+           </h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span> 8 weeks old.</span>
+      </div>
+      <p> </p>
+      <div class="price"></div>
+      <div class="buttons">
+         <a href="appointment.html" class="buy">Order now</a>
+         
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-2">
+      <i class="fas fa-times"></i>
+      <img src="img/caracalmale3.jpeg" alt="">
+       
+      <h3>Feya Caracal Male </h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>
+            14 weeks old.</span>
+      </div>
+      <p></p>
+      <div class="price"></div>
+      <div class="buttons">
+         <a href="appointment.html" class="buy">Order now</a>
+        
+      </div>
+   </div>
+
+  
+
+</div>
+
+ 
+        <!-- Team Start -->
+        <div class="container-fluid team py-5">
+         <div class="container py-5">
+             <div class="section-title mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                 <div class="sub-style">
+                     <h4 class="sub-title px-3 mb-0">When your kitten leaves our home, he or she will have:</h4>
+                 </div>
+                 <h1 class="display-3 mb-4"></h1>
+                 <p class="mb-0">Vaccinations and booster shots, worming, health certificate from our registered vet here in Olds, and a 1 year health guarantee. Official registration paperwork from TICA (The International Cat Association) certifying that your savannah kittens are purebred savannahs will be provided after documentation of spay or neuter is provided to EXOTICKITTENS.
+
+
+
+                     * Deposits are being accepted now.
+                     
+                     How often will new pictures of my kitten be taken?
+                     
+                     We know that it is important for each of our clients to receive pictures of their kitten as he or she is growing. We at EXOTICKITTENS will take pictures of your kitten every 3 weeks as he or she grows, and have a picture posted on our website. Additionally we will have many pictures of your kitten posted on our
+                     
+                     Facebook page for our current or previous clients to admire.
+                     
+                      
+                     
+                     To be added to our waiting list, please call or email us using the link on our Contact page.
+                     A $1000.00 non-refundable deposit is required to place one of our savannah kittens for sale on hold.  When your kitten is 12 weeks old, your kitten will be ready go home with you. Breeding rights cannot be obtained.
+                     
+                      
+                     
+                     * Please Contact Us soon if you are interested in a kitten, or they may all be claimed.</p>
+             </div>
+
+
+ 
+        <!-- Footer Start -->
+        <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+         <div class="container py-5">
+             <div class="row g-5">
+                 <div class="col-md-6 col-lg-6 col-xl-3">
+                     <div class="footer-item d-flex flex-column">
+                         <h4 class="text-white mb-4">EXOTICKITTENS</h4>
+                         <p>Welcome to EXOTIC KITTENS. My husband Mark and I live full time in our home with our savannahs, and treat them as our children. Our savannahs are never alone as they are in our home, not away at a boarding kennel. We love our savannahs and our savannahs love us. 
+                         </p>
+                         <div class="d-flex align-items-center">
+                             <i class="fas fa-share fa-2x text-white me-2"></i>
+                             <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                             <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
+                             <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
+                             <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="col-md-6 col-lg-6 col-xl-3">
+                     <div class="footer-item d-flex flex-column">
+                         <h4 class="mb-4 text-white">Quick Links</h4>
+                         <a href="index.html"><i class="fas fa-angle-right me-2"></i> About Us</a>
+                         <a href="contact.html"><i class="fas fa-angle-right me-2"></i> Contact Us</a>
+                        
+                     </div>
+                 </div>
+                 <div class="col-md-6 col-lg-6 col-xl-3">
+                     <div class="footer-item d-flex flex-column">
+                         <h4 class="mb-4 text-white"></h4>
+                          
+                     </div>
+                 </div>
+                 <div class="col-md-6 col-lg-6 col-xl-3">
+                     <div class="footer-item d-flex flex-column">
+                         <h4 class="mb-4 text-white">Contact Info</h4>
+                         <a href=""><i class="fa fa-map-marker-alt me-2"></i></a>
+                         <a href=""><i class="fas fa-envelope me-2"></i> info@exotickit.com</a>
+                          
+                         <a href=""><i class="fas fa-phone me-2"></i></a>
+                        
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+     <!-- Footer End -->
+     
+     <!-- Copyright Start -->
+     <div class="container-fluid copyright py-4">
+         <div class="container">
+             <div class="row g-4 align-items-center">
+                 <div class="col-md-6 text-center text-md-start mb-md-0">
+                     <span class="text-white"><a href="#"><i class="fas fa-copyright text-light me-2"></i>Exotickit.com</a>, All right reserved.</span>
+                 </div>
+                 <div class="col-md-6 text-center text-md-end text-white">
+                     <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
+                     <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
+                     <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
+                     Designed By <a class="border-bottom" href="https://bellapp.vercel.app/">Bellapp</a> <a class="border-bottom" href="https://themewagon.com"></a>
+                 </div>
+             </div>
+         </div>
+     </div>
+     <!-- Copyright End -->
+
+     <!-- Back to Top -->
+     <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+     
+     <!-- JavaScript Libraries -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+     <script src="lib/wow/wow.min.js"></script>
+     <script src="lib/easing/easing.min.js"></script>
+     <script src="lib/waypoints/waypoints.min.js"></script>
+     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+     
+ 
+<!-- Template Javascript -->
+     <script src="js/main.js"></script>
+</body>
+</html>
